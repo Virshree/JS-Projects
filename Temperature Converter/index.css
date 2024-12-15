@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(168, 245, 168);
+    
+}   
+.main{
+    background-color: rgb(102, 221, 89);
+    color:rgb(40, 82, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    /* flex-direction: column; */
+    margin: auto;
+}
+.container{
+    display: flex;
+    
+     
+    flex-direction: column;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h2>Loan Calculator</h2>
+      <label>Loan Amount $ </label>
+      <input
+        type="number"
+        id="loanAmt"
+        name="loanAmt"
+        min="1"
+        max="500000"
+        value="10000"
+        class="input"
+        onchange="calculateLoan()"
+      />
+
+      <label>Interest Rate %</label>
+
+      <input
+        type="number"
+        id="interest"
+        name="interest"
+        min="0"
+        max="100"
+        value="10"
+        class="input"
+        onchange="calculateLoan()"
+      />
+
+      <label>Months to pay</label>
+
+      <input
+        type="number"
+        id="months"
+        min="6"
+        max="48"
+        value="12"
+        name="month "
+        class="input"
+        onchange="calculateLoan()"
+      />
+
+      <p id="result">Montly payment:</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
