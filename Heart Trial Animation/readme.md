@@ -6,13 +6,10 @@
 * The project provides a good example of how to use mouse movement and      animation effect on webpage.
 
 # Demo
-<!-- -------------------------------------------------------------------------- -->
 
 You can try  out the application by visiting [demolink](http://127.0.0.1:5500/Projects/Heart%20Trial%20Animation/)
 
 # Technologies Used
-
-<!-- ------------------------------------------------------------------------- -->
 
 * HTML
 * CSS
