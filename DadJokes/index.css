@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+    /* margin-right: 200px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 250px;
+}
+h3{
+    color: rgb(155, 131, 131);
+    text-transform: capitalize;
+}
+.main-container{
+    background-color: white;
+    color: black;
+    width: 50vw;
+    height: 10vh;
+    block-size: auto;
+  
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+ 
+}
+.joke-content{
+
+    gap: 40px;
+    font-size: x-large;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px;
+    text-align: center;
+}
+.joke-btn{
+    background-color: rgb(180, 37, 180);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 14vw;
+    height: 8vh;
+    cursor: pointer;
+    font-size: larger;
+
+    border-radius: 5px;
+    margin-bottom: 70px;
+   
+}
